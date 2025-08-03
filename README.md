@@ -4,10 +4,9 @@
 
 ![Memory Rampage Screenshot](game_pics/FeatureGraphic.png)
 
-
 ## About This Repository
-
-This repository contains **only the source code** (`lib/` folder and assets) required for the game along with the pubspec file.
+1. This repository contains **only the source code** (`lib/` folder and assets) required for the game along with the pubspec file.
+2. I have used Gemini and Grok AI to optimize, handle a few UI widgets, and better format the code.
 
 ## Steps to setup the project
 1. flutter create memory_rampage
