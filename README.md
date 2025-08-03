@@ -2,7 +2,7 @@
 
 **Memory Rampage** is a fast-paced, brain-challenging mobile game developed by **Team SkyIs-Open**.
 
-![Memory Rampage Screenshot](assets/screenshots/game_preview.png)
+![Memory Rampage Screenshot](game_pics/FeatureGraphic.png)
 
 
 ## ⚠️ About This Repository
