@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: gamePrimaryPurple,
         scaffoldBackgroundColor: gameBackgroundLightGray,
-        fontFamily: 'SansSerif', // Choose a nice font
+        fontFamily: 'SansSerif',
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             backgroundColor: gamePrimaryPurple,
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         dialogTheme: DialogTheme(
-          backgroundColor: gameBackgroundLightGray, // Or Colors.white
+          backgroundColor: gameBackgroundLightGray,
            shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
@@ -63,4 +63,5 @@ class MyApp extends StatelessWidget {
       home: const HomeScreen(),
     );
   }
+
 }
