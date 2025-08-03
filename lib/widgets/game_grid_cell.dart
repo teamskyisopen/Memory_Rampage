@@ -11,7 +11,7 @@ enum CellState {
 class GameGridCell extends StatelessWidget {
   final CellState cellState;
   final VoidCallback onTap;
-  final bool isClickable; // To disable clicks during flashing
+  final bool isClickable;
   final int? number;
 
   const GameGridCell({
@@ -39,7 +39,7 @@ class GameGridCell extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: isClickable ? onTap : null,
-      child: AspectRatio( // Ensures cells are square
+      child: AspectRatio(
         aspectRatio: 1,
         child: Container(
           margin: const EdgeInsets.all(4.0),
@@ -63,4 +63,5 @@ class GameGridCell extends StatelessWidget {
       ),
     );
   }
+
 }
